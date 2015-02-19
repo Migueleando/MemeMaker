@@ -21,6 +21,3 @@
 
 #####Image View Sharing Features
 * Shares images to several avenues.
-
-
-Features implemented since they don't include data persistence
