@@ -33,10 +33,7 @@ public class FileUtilities {
 
         try {
             in = assetManager.open(assetName);
-            /*out = context.openFileOutput(
-                    fileToWrite.getName(),
-                    context.MODE_PRIVATE);
-            */
+
             out = new FileOutputStream(fileToWrite);
             copyFile(in, out);
 
